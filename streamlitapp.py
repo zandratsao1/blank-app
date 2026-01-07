@@ -49,7 +49,7 @@ def load_all_assets():
             "test": safe_load_csv("test_data_lr.csv")
         },
         "Random Forest": {
-            "model": joblib.load('rf_model_compress.pkl'),
+            "model": joblib.load('rf_model.pkl'),
             "scaler": joblib.load('rf_scaler.pkl'),
             "val": safe_load_csv("val_data_rf.csv"),
             "test": safe_load_csv("test_data_rf.csv")
