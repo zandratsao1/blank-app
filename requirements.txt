@@ -4,5 +4,4 @@ numpy
 joblib
 scikit-learn
 xgboost
-matplotlib
-seaborn
+plotly
